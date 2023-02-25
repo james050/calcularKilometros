@@ -1,0 +1,92 @@
+<doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" >
+    <link rel="stylesheet" href="css/Estilos.css">
+    <link rel="stylesheet" href="css/fonts.css">
+ 
+    <title>Ejercicio kilometros</title>
+  </head>
+
+  <script src="js/Java.js" type="text/javascript">
+  </script>
+ 
+
+
+<body class="Fondo">
+  <div class="contenedor">
+    <!------------------------------------------------------------------->
+  
+    <div class="card text-center">
+      <div class="card-header">
+        <h3>Parqueadero-Renta ATS (El mejor servicio)</h3>
+        <br>
+        <h4>"Disfruta el viaje en el vehículo"</h4>
+      </div>
+      <div class="card-body">
+        <img class="card-img-top" src="imagenes/imagenVehiculo.jpg" alt="Parqueadero-Renta ATS" style="width: 400px;">
+        <hr>
+        <p class="card-text">Crear un programa en javascript con interfaz gráfica que permita cálcular el total que debe pagar una persona por el alquiler de un automóvil <br>
+          si se sabe que cobra un monto fijo de $300.000 para los primeros 300km de recorrido,<br> para más de 300 km, cobra un monto adicional de $15000 por cada kilometro en exceso sobre 300.<br> El programa deberá cálcular el monto a pagar por el alquiler 
+          de un vehículo, determinando el monto fijo, el número de kilómetros adicionales, costo de los kilometros adicionales y finalmente el total a pagar.</p>
+         <hr>
+        <div class="btn-group" role="group" aria-label="Basic example">
+          
+  
+     <div class="card text-center">
+        
+          <p><strong>Ingrese cuántos kilometros ha recorrido el vehículo</strong></p>
+          <br>
+          <input id="kmRecorridos" type="number">
+          <br>
+          <button  type="submit" class="btn btn-dark" onclick="validar();"><strong>Cálcular monto a pagar</strong></button>
+          <!-- <button onclick="Saludar();">Saludar</button>-->
+          <br>
+          <hr>
+          <p id="Factura_generada"></p>
+          <center>
+          <img id="Foto" src="imagenes/imagenFlecha.png" width="40px">
+          </center>
+          <hr>
+          <hr>
+          <p><strong>Precio fijo:</strong></p> 
+          <p id="PrecioFijo"></p> 
+          <hr>
+          <p><strong>Kilometros adicionales:</strong></p>
+          <p id="kmAdicionales"></p> 
+          <hr>
+          <p><strong>Costo kilometros adicionales:</strong></p>
+          <p id="CostoAdicional"></p>
+          <hr>
+          <p><strong>Total a pagar $:</strong></p> 
+          <p id="total"></p> 
+     
+  
+    </div>
+  
+  
+        </div>
+      </div>
+  
+    </div>
+
+  <footer class="footer">
+  <div class="social">
+    <a href="" class="icon-facebook"></a>
+    <a href="" class="icon-google"></a>
+    <a href="" class="icon-twitter"></a>
+  </div>
+  <p class="copy">&copy; James Alexander Mejía Cataño 2022 - Todos los derechos reservados</p>
+  </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

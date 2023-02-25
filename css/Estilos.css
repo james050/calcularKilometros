@@ -1,0 +1,91 @@
+.contenedor{
+ margin: 5%;
+ padding: 5px;
+ text-align: center;
+ color:#009432;
+}
+.Fondo{
+    background: #f6e58d;
+}
+.arriba{
+	margin-top: -65px;
+}
+p {
+  margin-bottom: 20px;
+}
+.wrapper {
+  width: 80%;
+  margin: auto;
+  overflow:hidden;
+}
+header {
+  background: rgba(0,0,0,0.9);
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+}
+
+nav {
+  float: left; /* Desplazamos el nav hacia la izquierda */
+}
+nav ul {
+  list-style: none;
+  overflow: hidden; /* Limpiamos errores de float */
+}
+nav ul li {
+  float: left;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+nav ul li a {
+  display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
+  padding: 15px;
+  color: #009432;
+  text-decoration: none;
+}
+nav ul li:hover {
+  background: #f6e58d;
+}
+/**************Estilos de footer************/
+.bola{
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+
+}
+.btnbtn-light{
+	font:sans-serif;
+}
+.footer{
+	background: rgba(0,0,0,0.9);
+	color:#f6e58d;
+	padding: 10px;
+	text-align: center;
+}
+.footer .social [class^="icon-"] {
+	display:inline-block;
+    color: rgba(0,0,0,0.9);
+    text-decoration: none;
+    font-size: 30px;
+    padding: 10px;
+    background: #f6e58d;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    line-height: 40px;
+
+}
+
+input[type="text"]{
+  font-size: 10px;
+  width: 80%;
+  padding: 5px;
+  border: none;
+  margin-bottom: 0px;
+  border: 1px solid;
+  border-color: #009432;
+}
+
+/**********************************************************************/
+
+
